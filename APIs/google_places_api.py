@@ -4,7 +4,8 @@ import requests
 def get_google_reviews(api_key, place_id):
     """
     Description:
-    Fetches restaurant details and reviews from Google Places API for a given place_id.
+    Fetches restaurant details and reviews from Google Places API for a given place_id. 
+    Documentation can be found at: https://developers.google.com/maps/documentation/places/web-service/place-id
     
     Parameters:
         api_key (str): Google Places API key.
